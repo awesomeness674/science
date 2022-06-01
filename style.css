@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(#32de84 58%, #90caf9 49%);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    float: left;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 2px;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 5px;
+    border-width: 5px;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+h1 {
+    text-shadow: 2px 2px #f8bbd0;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #1a237e;
+}
+
+h3 {
+    color: teal;
+    font-size: 25px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+.Menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    z-index: 10;
+    cursor: pointer;
+    position: fixed;
+}
+
+.Links {
+    float: left;
+    color: teal;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-family: "Cedarville Cursive", italic;
+    font-size: 23px;
+}
+
+.Links:hover {
+    background-color: dodgerblue;
+}
+
+.cell {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.Home {
+    text-align: center;
+}
+
+hr {
+    border-top: 4px groove black;
+}
+
+.column {
+    float: left;
+    padding: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.thisimage {
+    width: 330px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+#GlobalWarming {
+    text-align: center;
+}
+
+.imageOP {
+    width: 320px;
+}
+
+.AirPollutionImage {
+    width: 280px;
+}
+
+.cell {
+    text-align: center;
+}
+
+.thisimage {
+    width: 240px;
+}
